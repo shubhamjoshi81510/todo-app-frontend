@@ -1,0 +1,20 @@
+
+<div>
+<div *ngIf="gettodos().length !=0">
+    <h3>"list of available todos"</h3>
+    <div class="todolist" *ngFor="let todolist of gettodos(); let i = index;">
+        <div>
+            <h4>Task::{{todolist.task}}</h4>
+            <h4>date:{{todolist.createdAt}}</h4>
+        </div>
+        <button class="buttoon" (click)="deleteTodos(todolist.id)">delete</button>
+    </div>
+    
+</div>
+
+<h4 *ngIf="gettodos().length ==0">"no todos are available"</h4>
+</div>
+
+
+
+

@@ -1,0 +1,27 @@
+.header-container{
+display: flex;
+border: 5px;
+background-color:aqua;
+margin: auto;
+margin-bottom: 6px;
+height: 15vh;
+justify-content: space-between;
+align-items: center;
+padding: 6px;
+}
+.logo{
+    max-width:25%;
+    height:auto;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.button{
+    border:4px;
+    display: flex;
+   background-color:red;
+   padding: 6px 12px;
+   border-radius: 6px;
+   justify-content: center;
+}

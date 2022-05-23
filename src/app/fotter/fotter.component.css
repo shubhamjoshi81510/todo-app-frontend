@@ -1,0 +1,9 @@
+.fotter{
+    display: flex;
+    background-color:aqua;
+    border:5px;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+
+}
